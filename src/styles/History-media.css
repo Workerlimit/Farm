@@ -1,0 +1,53 @@
+@media (max-width: 1339px){
+    .history-tree-section__item-content--left{
+        right: 102%;
+    }
+    .history-tree-section__item-content--right{
+        left: 20%;
+    }
+    .center{
+        margin-left: 52.5%;
+    }
+}
+@media (max-width: 1019px){
+    .history-tree-section__item-story, .center{
+        display: none;
+    }
+    .history-tree-section{
+        padding-top: 30px;
+    }
+    .history-tree-section__item{
+        width: 100%;
+        margin: 0;
+    }
+    .history-tree-section__item-content--left{
+        right: 0;
+    }
+    .history-tree-section__item-content--right{
+        left: 0;
+    }
+    .history-tree-section__item-content{
+        position: relative;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 699px){
+    .history-tree-section__year {
+        font-size: 2rem;
+    }
+    .history-tree-section__title {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 529px){
+    .history-tree-section{
+        padding-top: 10px;
+    }
+    .history-tree-section__year {
+        font-size: 1.5rem;
+    }
+    .history-tree-section__title {
+        font-size: 1.2rem;
+    }
+}

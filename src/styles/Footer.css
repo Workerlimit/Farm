@@ -1,0 +1,198 @@
+.footer-wrapper {
+    color: #111;
+    height: 450px;
+    background: #D9F1FF;
+    padding-top: 6.3rem;
+}
+.footer-top {
+    height: 390px;
+    border-bottom: 1px solid #111;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 0 0 5px;
+}
+.footer-menu {
+    display: flex;
+    width: 50%;
+    gap: 20%;
+}
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+}
+.footer-menu-title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 3%;
+    margin-bottom: 40px;
+}
+.footer-nav a {
+    text-decoration: none;
+    color: #111;
+    font-size: 18px;
+    line-height: 25.2px;
+}
+.footer-nav a + a {
+    margin-top: 24px;
+}
+.send-form {
+    width: 40%;
+    height: 150px;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    line-height: 50.4px;
+    position: relative;
+    top: 22%;
+}
+.send-form button {
+    background: #111;
+    color: #fff;
+    padding: 13px 139px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 30px;
+    letter-spacing: 5%;
+}
+.contact-block + .contact-block {
+    margin-top: 24px;
+}
+.contact-title {
+    font-weight: 600;
+    color: #7493A5;
+    font-size: 18px;   
+}
+.contact-text {
+    font-size: 18px;
+    margin-top: 8px;
+}
+.contact-form-enter {    
+    opacity: 0;
+}
+.contact-form-enter-active {
+    opacity: 1;
+    transition: all 300ms ease;
+}
+.contact-form-exit {
+    opacity: 1;
+}
+.contact-form-exit-active {
+    opacity: 0;
+    transition: all 300ms ease;
+}
+
+.form-wrapper{
+    width: 580px;
+    background: rgba(0, 0, 0, 0.48);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(36px);
+    border-radius: 32px;
+    padding: 42px 49px 54px;
+    border-radius: 32px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.form-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.form-title{
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    line-height: 140%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.form-close-btn{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background: #fff url("../icons/close.svg") no-repeat center center;
+}
+.form-close-btn:hover{
+    cursor: pointer;
+}
+.form-wrapper input{
+    border: none;
+    background: none;
+    border-bottom: 1px solid #fff;
+    width: 98%;
+    font-size: 16px;
+    color: #fff;
+    height: 30px;
+}
+.form-wrapper input+input{
+    margin-top: 20px;
+}
+.form-wrapper input::placeholder{
+    color: #fff;
+}
+.form-btn{
+    color: #fff;
+    background: #26B7E4;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 13px 192px;
+    margin-top: 40px;
+}
+.form-btn:hover{
+    cursor: pointer;
+}
+
+.form-send-enter {    
+    opacity: 0;
+    transform: scale(0);
+}
+.form-send-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+}
+.form-send-exit {
+    opacity: 1;
+}
+.form-send-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+}
+
+.send-wrapper{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.48);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(36px);
+    border-radius: 32px;
+    padding: 57px 50px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.send-text{
+    font-size: 16px;
+    color: #fff;
+    margin: 12px 0 32px;
+}
+.send-btn{
+    padding: 13px 176px;
+}
+.send-form button:hover{
+    cursor: pointer;
+}

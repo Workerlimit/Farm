@@ -1,0 +1,139 @@
+@media (max-width: 1339px){
+    .footer-top{
+        padding: 0 30px;
+        height: 25rem;
+    }
+    .send-form button{
+        padding: 12px 8rem;
+    }
+    .footer-menu-title{
+        margin-bottom: 1.5rem;
+    }
+}
+@media (max-width: 1019px){
+    .send-form{
+        font-size: 1.5rem;
+    }
+    .send-form button{
+        padding: 12px 7rem;
+    }
+}
+@media (max-width: 699px){
+    .footer-wrapper{
+        padding-top: 50px;
+        height: auto;
+        padding-bottom: 40px;
+    }
+    .footer-top{
+        display: grid;
+        grid-template-columns: 100%;
+        height: auto;
+        gap: 3%;
+        padding-bottom: 50px;
+    }
+    .contacts{
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .footer-nav a + a{
+        margin-top: 10px;
+    }
+    .contact-block + .contact-block{
+        margin-top: 10px;
+    }
+    .footer-menu{
+        display: grid;
+        height: auto;
+        width: 100%;
+        grid-gap: 5%;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #81AFC9;
+    }
+    .footer-navigation{
+        display: inline-block;
+    }
+    .footer-menu-close, .footer-menu-open{
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        float: right;
+    }
+    .footer-menu-close{
+        background: url("../icons/f-arrow-down.svg") no-repeat center center;
+    }
+    .send-form{
+        width: 60%;
+    }
+    .footer-menu-open{
+        background: url("../icons/f-arrow-up.svg") no-repeat center center;
+    }
+    .f-hide{
+        display: none;
+        transition: display 300ms ease;
+    }
+    .form-wrapper{
+        width: 30rem;
+    }
+    .form-btn{
+        padding: 10px 100px;
+    }
+}
+@media (max-width: 529px) {
+    .footer-menu{
+        padding-bottom: 0px;
+    }
+    .contacts{
+        padding-bottom: 35px;
+    }
+    .footer-top{
+        gap: 0;
+        padding: 0;
+    }
+    .send-form{
+        width: 100%;
+        line-height: 33px;
+        height: 150px;
+    }
+    .send-form button{
+        margin-top: 16px;
+    }
+    .form-wrapper{
+        width: 20rem;
+        padding: 32px 24px;
+    }
+    .form-btn{
+        padding: 10px 100px;
+    }
+    .form-title{
+        font-size: 18px;
+    }
+    .form-top{
+        justify-content: center;
+        position: relative;
+    }
+    input{
+        font-size: 14px;
+    }
+    input::placeholder{
+        font-size: 14px;
+    }
+    .form-close-btn{
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: -170%;
+        right: -15%;
+    }
+    .form-wrapper .form-btn{
+        padding: 13px 50px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+    }
+    .send-btn{
+        font-size: 12px;
+        padding: 13px 20px;
+    }
+    .send-wrapper{
+        width: 20rem;
+    }
+}

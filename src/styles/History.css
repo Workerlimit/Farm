@@ -1,0 +1,58 @@
+.history-tree-section {
+    padding-top: 50px;
+    width: 100%;
+}
+.history-tree-section__item {
+    position: relative;
+    display: flex;
+    width: 60%;
+    margin: 0 0 0 47%;
+}
+.history-tree-section__item-content {
+    width: 75%;
+    margin-top: 17%;
+    position: absolute;
+    top: 5%;
+}
+.history-tree-section__item-content--left {
+    right: 100%;
+}
+.history-tree-section__item-content--right {
+    left: 15%;
+}
+.history-tree-section__circle {
+    height: 100px;
+    position: relative;
+}
+.history-tree-section__line{
+    margin: 0 auto;
+    width: 1px;
+    height: 295px;
+}
+.history-tree-section__number{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.75rem;
+}
+.history-tree-section__year {
+    font-weight: 700;
+    font-size: 3rem
+}
+.history-tree-section__title {
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin: 12px 0 16px 0;
+}
+.history-tree-section__text {
+    line-height: 23.2px;
+}
+.center{
+    margin-left: 51.2%;
+}
+.short{
+    height: 295px;
+}
